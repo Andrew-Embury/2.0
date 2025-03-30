@@ -188,4 +188,39 @@ nav ul li a:hover {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Infographic Styling */
+.infographic-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.infographic-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive breakpoints for infographic */
+@media screen and (max-width: 639px) {
+    .infographic-container {
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .infographic-container {
+        padding: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .infographic-container {
+        padding: 32px;
+    }
 } 
